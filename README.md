@@ -1,4 +1,4 @@
-ThinkPython
+ThinkPython2
 ===========
 
 My Code examples, and exercise solutions for Think Python, 2nd edition, by Allen Downey.
