@@ -2,11 +2,13 @@
 
 import turtle
 
-def square(t, length, n):
+def polygon(t, n, length):
+    angle = 360 / n
     for i in range(n):
         t.fd(length)
-        t.lt(360/n)
+        t.lt(angle)
+
 bob = turtle.Turtle()
 print(bob)
-square(bob, 100, 10)
+polygon(bob, 7, 70)
 turtle.mainloop()
