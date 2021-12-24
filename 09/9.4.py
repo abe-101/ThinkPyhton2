@@ -10,3 +10,9 @@ def uses_only(word, available):
         if letter not in available:
             return False
     return True
+
+available = input('Enter available letters: ')
+fin = open('words.txt')
+for line in fin:
+    if uses_only(line, available):
+        print(line)
